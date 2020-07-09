@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1024">
+    <title>Animated Bar Chart Project - v.0.1</title>
+    <!-- Standard CSS here -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bar graphs here -->
+		<link rel="stylesheet" href="bars.css">
+	</head>
+	<body>
+		<div class="toggles">
+			<p><a href="#" id="reset-graph-button">Reset graph</a><a href="https://github.com/jgoncalvesjr" target="_blank" id="return-button">Visit My GitHub</a> Hover mouse over bars to display detailed information.</p>
+		</div>
+		<div id="wrapper">
+			<div class="chart">
+				<h2>Evo Championship Series competitors per game 2015 &ndash; 2019</h2>
+				<table id="data-table" border="1" cellpadding="10" cellspacing="0" summary="Evo Championship Series competitors per game from 2015 to 2019">
+					<caption>Per 1000 players</caption>
+					<thead>
+						<tr>
+							<td>&nbsp;</td>
+							<th scope="col">2015</th>
+							<th scope="col">2016</th>
+							<th scope="col">2017</th>
+							<th scope="col">2018</th>
+							<th scope="col">2019</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Street Fighter</th>
+							<td>2227</td>
+							<td>5065</td>
+							<td>2622</td>
+							<td>2484</td>
+							<td>1929</td>
+						</tr>
+						<tr>
+							<th scope="row">Tekken 7</th>
+							<td>458</td>
+							<td>543</td>
+							<td>1278</td>
+							<td>1538</td>
+							<td>1885</td>
+						</tr>
+						<tr>
+							<th scope="row">Super Smash Bros.</th>
+							<td>1926</td>
+							<td>2637</td>
+							<td>1515</td>
+							<td>1354</td>
+							<td>3492</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- JavaScript at the bottom for fast page loading -->
+
+		<!-- jQuery reference -->
+		<script src="jquery.js"></script>
+
+		<!-- JavaScript -->
+		<script src="script.js"></script>
+
+	</body>
+</html>

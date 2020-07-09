@@ -1,0 +1,23 @@
+/* Bar designs are stored here */
+#data-table {
+	display: none;
+}
+.fig0 {
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.0, #500505), color-stop(0.49, #881818), color-stop(0.5, #993333), color-stop(1.0, #da5e5e));
+}
+.fig1 {
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.0, #05610a), color-stop(0.49, #1e9624), color-stop(0.5, #36963b), color-stop(1.0, #73ca77));
+}
+.fig2 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.0, #310257), color-stop(0.49, #591b8b), color-stop(0.5, #65358b), color-stop(1.0, #8a49be));
+}
+.bar span {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #fff), color-stop(1.0, #e5e5e5));
+	display: block;
+	opacity: 0;
+
+	-webkit-transition: all 0.2s ease-out;
+}
+.bar:hover span {
+	opacity: 1;
+}
